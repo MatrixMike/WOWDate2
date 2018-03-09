@@ -1,0 +1,14 @@
+Fri 09 Mar 2018 20:21:52 AEDT 
+
+development notes:
+
+1.  add dummy i.e. inactive function 
+        public void testmjh (){
+
+        }
+
+2. connected to T Hub2 (Telstra) device. Android Studio recognises that device and
+   allows delivery of the APK for debugging purposes. Other devices : Nikon phone, ALDI tablet
+   tried but as yet not successful.
+
+3. Changed a visible label on the GUI. 
