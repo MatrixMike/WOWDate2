@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 //                    Toast toast = Toast.makeText(getApplicationContext(), "Your toast message.",
 //                            Toast.LENGTH_SHORT);
                 //    toast.setGravity(Gravity.TOP|Gravity.LEFT, 0, 0);
-                    toast.show();
+                //    toast.show();
                     return true;
                 case R.id.navigation_dashboard:
                     mTextMessage.setText(R.string.title_dashboard);
