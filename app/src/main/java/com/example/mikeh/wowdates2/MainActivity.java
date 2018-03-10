@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
                     mTextMessage.setText(R.string.title_home);
-                    testmjh();
+//                    testmjh();
                     wow1();
-                    Toast toast = Toast.makeText(getApplicationContext(), "Your toast message.",
-                            Toast.LENGTH_SHORT);
+//                    Toast toast = Toast.makeText(getApplicationContext(), "Your toast message.",
+//                            Toast.LENGTH_SHORT);
                 //    toast.setGravity(Gravity.TOP|Gravity.LEFT, 0, 0);
                     toast.show();
                     return true;
