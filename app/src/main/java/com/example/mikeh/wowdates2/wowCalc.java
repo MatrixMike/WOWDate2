@@ -1,11 +1,12 @@
 //
-
+import java.text.SimpleDateFormat;
+import java.util.*;
 /**
  * main()
  * @author  (Mike Hewitt)
  * @version (1.1)
  */
-/*public static void main (String args[]) {
+/* public  wow1 () {
         String Instalment = "Food day";
         Double LumoInstalments = 75.00;
         Integer Instalments = 24;			// loop control
