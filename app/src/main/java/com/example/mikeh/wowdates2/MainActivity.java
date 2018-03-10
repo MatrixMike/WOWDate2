@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     int daysAhead = 365;
@@ -23,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
                     mTextMessage.setText(R.string.title_home);
                     testmjh();
                     wow1();
+                    Toast toast = Toast.makeText(getApplicationContext(), "Your toast message.",
+                            Toast.LENGTH_SHORT);
+                //    toast.setGravity(Gravity.TOP|Gravity.LEFT, 0, 0);
+                    toast.show();
                     return true;
                 case R.id.navigation_dashboard:
                     mTextMessage.setText(R.string.title_dashboard);
@@ -92,6 +97,9 @@ public class MainActivity extends AppCompatActivity {
 
             //	System.out.println("found something");
             System.out.print(" "+ S.format(C.getTime())+" ");
+            Toast toast = Toast.makeText(getApplicationContext(), S.format(C.getTime()),
+                    Toast.LENGTH_SHORT);
+            toast.show();
         }
         public boolean LumoFortnight(Calendar C, SimpleDateFormat S){
             return (((
