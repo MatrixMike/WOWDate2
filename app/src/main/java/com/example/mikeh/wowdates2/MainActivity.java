@@ -93,12 +93,12 @@ public class MainActivity extends AppCompatActivity {
          */
 
         public void balanceCheck(Calendar C, SimpleDateFormat S){
-            String testStr;
+            String info1Str = "A WOW food day will happen on ";
             //		Calendar now = Calendar.getInstance();
 
             //	System.out.println("found something");
-            System.out.print("A WOW food day will happen on "+ S.format(C.getTime())+" ");
-            Toast toast = Toast.makeText(getApplicationContext(), "A WOW food day will happen on " + S.format(C.getTime()),
+            System.out.print(info1Str+ S.format(C.getTime())+" ");
+            Toast toast = Toast.makeText(getApplicationContext(), info1Str + S.format(C.getTime()),
                     Toast.LENGTH_SHORT);
             toast.show();
         }
