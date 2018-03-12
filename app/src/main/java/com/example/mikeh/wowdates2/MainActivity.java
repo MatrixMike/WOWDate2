@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
                     {
                         System.out.print("Good Friday");
+                        cldr.add(Calendar.DAY_OF_YEAR, +7);
                     }
                     if ((cldr.get(Calendar.YEAR)  == today.get(Calendar.YEAR)) &&
                             (cldr.get(Calendar.DAY_OF_YEAR) <= (dateTolerance + today.get(Calendar.DAY_OF_YEAR))))
@@ -96,8 +97,8 @@ public class MainActivity extends AppCompatActivity {
             //		Calendar now = Calendar.getInstance();
 
             //	System.out.println("found something");
-            System.out.print(" "+ S.format(C.getTime())+" ");
-            Toast toast = Toast.makeText(getApplicationContext(), S.format(C.getTime()),
+            System.out.print("A WOW food day will happen on "+ S.format(C.getTime())+" ");
+            Toast toast = Toast.makeText(getApplicationContext(), "A WOW food day will happen on " + S.format(C.getTime()),
                     Toast.LENGTH_SHORT);
             toast.show();
         }
