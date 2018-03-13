@@ -7,3 +7,5 @@
 /build
 /captures
 .externalNativeBuild
+app/src/res/xml/global_tracker.xml
+
