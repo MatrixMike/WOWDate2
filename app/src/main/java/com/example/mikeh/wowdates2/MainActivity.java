@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             Calendar today = Calendar.getInstance();
             SimpleDateFormat dateformatter =   new SimpleDateFormat("dd-MMM-yyyy");  // ("dd-MM-yyyy E 'at' hh:mm:ss a zzz");
 
-            cldr.set(Calendar.YEAR, 2018);			// set the year (start date for repayment) 11/09/2017
+            cldr.set(Calendar.YEAR, 2025);			// set the year (start date for repayment) 11/09/2017
             cldr.set(Calendar.MONTH, 1);			// set the month September
             cldr.set(Calendar.DAY_OF_MONTH, 2);	// set the date
 //        System.out.printf("Lumo Bill payment " + Instalment +" "+ "scheme%n%n");
